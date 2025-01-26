@@ -1,0 +1,22 @@
+{
+  "name": "cypress1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test1": "npx cypress open",
+    "test2": "npm start",
+    "test3": "npm run server",
+    "laptop:headless": "npx cypress run -b chrome -C cypress.config.js",
+    "laptop:headed": "npx cypress run -b edge --headed -C cypress.config.js",
+    "mobile:headless": "npx cypress run -b edge -C cypress.mobile.config.js",
+    "mobile:headed": "npx cypress run -b chrome --headed -C cypress.mobile.config.js"
+  },
+  "author": "Gorokhova Elena",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^14.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
